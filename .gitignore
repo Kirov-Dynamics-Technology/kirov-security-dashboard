@@ -1,0 +1,39 @@
+﻿# Node
+node_modules/
+.next/
+out/
+.cache/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Grafana
+dashboards/grafana/*.bak
+
+# Secrets
+*.pem
+*.key
+*.cert
+service-account.json
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
