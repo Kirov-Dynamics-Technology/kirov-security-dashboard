@@ -24,6 +24,15 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Environment
+.env.production
+
+# Logs
+*.log
+
+# Vercel
+.vercel
+
 # Grafana
 dashboards/grafana/*.bak
 
